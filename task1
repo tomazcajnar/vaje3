@@ -1,0 +1,9 @@
+str = input("Enter the number of groceries: ")
+try:
+  str = int(str)
+  if str>40:
+    print (0)
+  else:
+    print (str)
+except:
+  print ("You have not entered the required number")
